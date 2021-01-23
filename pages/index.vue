@@ -32,7 +32,7 @@
   width: 100%;
   height: auto;
   z-index: -100;
-  background: url('/image/dark.png') no-repeat;
+  background: url('https://i.ytimg.com/vi/9S_7GSCLLUI/maxresdefault.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
 }
