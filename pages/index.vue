@@ -32,7 +32,7 @@
   width: 100%;
   height: auto;
   z-index: -100;
-  background: url('image/dark.png') no-repeat;
+  background: url('/image/dark.png') no-repeat;
   background-size: cover;
   background-position: center center;
 }
