@@ -7,6 +7,7 @@
         poster='image/dark.png'
         autoplay
         muted
+        playsinline
       ></video>
       <h1 class="h1">Junpei Nakazawa</h1>
       <h2>More memories for all education</h2>
