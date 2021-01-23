@@ -3,11 +3,12 @@
     <div class="full">
       <video
         id="bg-video"
-        src='movie/douga.mp4'
-        poster='image/dark.png'
+        src="movie/douga.mp4"
+        poster="image/dark.png"
         autoplay
         muted
         playsinline
+        loop
       ></video>
       <h1 class="h1">Junpei Nakazawa</h1>
       <h2>More memories for all education</h2>
@@ -20,6 +21,7 @@
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
 
 .full {
@@ -33,7 +35,8 @@
   width: 100%;
   height: auto;
   z-index: -100;
-  background: url('https://i.ytimg.com/vi/9S_7GSCLLUI/maxresdefault.jpg') no-repeat;
+  background: url("https://i.ytimg.com/vi/9S_7GSCLLUI/maxresdefault.jpg")
+    no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -47,7 +50,7 @@
   line-height: 1;
   font-size: 8vw;
   /* font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体"; */
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Sacramento", cursive;
   color: #fff;
   font-size: 64px;
   animation-name: fade-in1;
@@ -75,7 +78,7 @@ h2 {
   line-height: 1;
   font-size: 2vw;
   /* font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体"; */
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Sacramento", cursive;
   color: #fff;
 }
 
@@ -94,6 +97,7 @@ h2 {
   top: calc(65% - 0.5em);
   left: 35%;
   font-family: "Ubuntu Mono", monospace;
+  font-weight: bold;
 }
 
 .btn-flat-border:hover {
@@ -115,8 +119,9 @@ h2 {
   background-color: #000000;
   position: absolute;
   top: calc(65% - 0.5em);
-  left: 50%;
+  left: 53%;
   font-family: "Ubuntu Mono", monospace;
+  font-weight: bold;
 }
 
 .btn-flat-border1:hover {
