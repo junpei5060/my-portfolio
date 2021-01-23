@@ -3,8 +3,8 @@
     <div class="full">
       <video
         id="bg-video"
-        src="movie/douga.mp4"
-        poster="image/dark.png"
+        src='movie/douga.png'
+        poster='image/dark.png'
         autoplay
         muted
       ></video>
@@ -32,7 +32,7 @@
   width: 100%;
   height: auto;
   z-index: -100;
-  background: url("image/dark.png") no-repeat;
+  background: url('image/dark') no-repeat;
   background-size: cover;
   background-position: center center;
 }
