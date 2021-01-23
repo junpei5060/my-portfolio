@@ -3,7 +3,7 @@
     <div class="full">
       <video
         id="bg-video"
-        src='movie/douga.png'
+        src='movie/douga.mp4'
         poster='image/dark.png'
         autoplay
         muted
