@@ -139,6 +139,7 @@ i {
 }
 .icon {
   text-align: center;
+  margin-top: -10px;
 }
 .fab {
   font-size: 28px;
@@ -162,7 +163,7 @@ i {
   font-size: 14px;
   text-align: center;
   width: 60%;
-  margin: 20px auto 10px;
+  margin: 20px auto -10px;
   font-family: "Ubuntu Mono", monospace;
   font-weight: bold;
 }

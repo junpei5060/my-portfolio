@@ -2,7 +2,7 @@
   <div class="container">
     <header class="header">
       <nuxt-link to="/" class="link">Home</nuxt-link>
-      <nuxt-link to="/garage" class="link">About</nuxt-link>
+      <nuxt-link to="/about" class="link">About</nuxt-link>
     </header>
     <h1 class="title"><span>Garage</span></h1>
     <div class="icon">
@@ -122,7 +122,7 @@ i {
   text-align: center;
 }
 .img {
-  width: 80%;
+  width: 70%;
   opacity: 0.8;
   transition: 1s;
   box-shadow: 0 1px 10px #ccc;
@@ -131,7 +131,7 @@ img:hover {
   opacity: 1;
 }
 .img3 {
-  width: 80%;
+  width: 70%;
   opacity: 0.8;
   transition: 1s;
   box-shadow: 0 1px 10px #ccc;
@@ -141,7 +141,7 @@ img:hover {
   opacity: 1;
 }
 .img4 {
-  width: 80%;
+  width: 70%;
   opacity: 0.8;
   transition: 1s;
   box-shadow: 0 1px 10px #ccc;
@@ -158,13 +158,14 @@ img:hover {
 .icon {
   text-align: center;
   font-size: 12px;
+  margin-top: -10px;
 }
 .fab {
   font-size: 28px;
 }
 
 h2 {
-  margin: 50px 0 0 0;
+  margin: 30px 0 0 0;
   width: 100%;
   text-align: center;
   line-height: 1;
