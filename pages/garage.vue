@@ -23,7 +23,7 @@
         /></a>
       </div>
       <div class="img2">
-        <a href="https://meeelook.herokuapp.com"
+        <a href="https://gyazo.com/2023ead1ae1a96f76a4451c3e701b13d"
           ><img class="img3" src="image/garage2.png" alt=""
         /></a>
         <a href="https://gyazo.com/1770ca05f61a46290c36b4022e7e565b"
